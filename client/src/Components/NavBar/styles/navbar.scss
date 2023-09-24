@@ -1,0 +1,36 @@
+.nav {
+    &__container {
+        margin: 0 auto;
+        color: #ced8cb;
+        background-color: #517750;
+        padding: 20px;
+        min-width: 600px;
+        width: 97,9%;
+        height: 80px;
+    }
+      &__ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+      &__img {
+        width: 100px;
+        height: 100px;
+        margin-top: -10px;
+      }
+      &__li {
+        font-size: larger;
+      }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.4s ease-in-out;
+  }

@@ -1,0 +1,164 @@
+.prodForm {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  &__label {
+    color: #373e35;
+    font-size: 25px;
+    margin: 5px;
+  }
+  &__input {
+    width: 30%;
+    height: 20px;
+    border-radius: 10px;
+  }
+  &__btn {
+    width: 10%;
+    margin-top: 10px;
+    color: #0a0a09;
+    background-color: #7caf52;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  &__div {
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 30%;
+    height: 25px;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #979797;
+  }
+  &__inputImage {
+    width: 170px;
+  }
+}
+
+.adminProd {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  &__content {
+    background-color: #f4f4f4;
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 2px 7px 2px;
+  }
+  &__title {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  &__desc {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+  }
+  &__image {
+    width: 200px;
+    height: 160px;
+    border-radius: 10px;
+  }
+  &__price {
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  &__btn {
+    width: 60%;
+    margin-bottom: 10px;
+    color: #0a0a09;
+    background-color: #d43f25;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+}
+.adminNews {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  &__content {
+    background-color: #f4f4f4;
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 2px 7px 2px;
+  }
+  &__title {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  &__desc {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+  }
+  &__image {
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+  }
+  &__btn {
+    width: 60%;
+    margin-bottom: 10px;
+    color: #0a0a09;
+    background-color: #d43f25;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+}
+.adminLesson {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  &__content {
+    background-color: #f4f4f4;
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 2px 7px 2px;
+  }
+  &__title {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  &__desc {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+  }
+  &__image {
+    border-radius: 6px;
+  }
+  &__btn {
+    width: 60%;
+    margin-bottom: 10px;
+    color: #0a0a09;
+    background-color: #d43f25;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+}

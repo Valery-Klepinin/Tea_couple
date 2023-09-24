@@ -1,0 +1,16 @@
+.admin {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__link {
+    font-size: 30px;
+    margin: 10px;
+    color: ced8cb;
+    background-color: #517750;
+    height: 12%;
+  }
+}

@@ -1,0 +1,118 @@
+.basket__container {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.basket__form {
+   color: rgb(211, 211, 211);
+   text-shadow: 1px 1px 4px black;
+   background: #90b195;
+   width: 900px;
+   h1 {
+      text-align: center;
+   }
+   .window{
+   height: 100px;
+   }
+}
+
+.form__row {
+   display: flex;
+   align-items: center;
+   background: #517750;
+   height: 80px;
+   margin-top: 20px;
+   .form__name {
+      margin-left: 20px;
+      width: 300px;
+   }
+   .form__count {
+      margin-left: 175px;
+   }
+   .form__price {
+      margin-left: 40px;
+      width: 190px;
+   }
+   font-size: 25px;
+}
+
+.form__result {
+   display: flex;
+   align-items: center;
+   background: #517750;
+   height: 80px;
+   margin-top: 20px;
+   .form__fullprice {
+      margin-left: 20px;
+      width: 300px;
+   }
+   .btn__result {
+      color: rgb(46, 46, 46);
+      margin-left: 300px;
+      border-radius: 10px;
+      height: 50px;
+      background: rgb(177, 76, 76);
+      font-size: 25px;
+   }
+   font-size: 25px;
+   line-height: 200%;
+}
+
+.form__row--buy {
+   display: flex;
+   align-items: center;
+   background: #517750;
+   height: 60px;
+   margin-top: 20px;
+   font-size: 25px;
+   .form__name-buy {
+      margin-left: 20px;
+      width: 450px;
+   }
+   .form__count--buy {
+      margin-left: 20px;
+   }
+   .form__price--buy {
+      margin-left: 50px;
+      width: 100px;
+   }
+   .form_input--buy {
+      border-radius: 10px;
+      height: 25px;
+      width: 60px;
+      font-size: 25px;
+      text-align: center;
+   
+   }
+}
+
+.btn__delete {
+   color: rgb(46, 46, 46);
+   margin-left: 30px;
+   border-radius: 10px;
+      height: 25px;
+      width: 80px;
+      background: rgb(177, 76, 76);
+}
+
+.btn__count {
+   display: flex;
+   justify-content: space-between;
+   width: 140px;
+   .btn {
+      background: rgb(177, 76, 76);
+      font-size: 30px;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+   }
+}
+
+.windoow {
+   height: 50px;
+   text-align: center;
+   line-height: 200%;
+   font-size: 25px
+}
